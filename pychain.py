@@ -1,10 +1,10 @@
 # Imports
-import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
 import datetime as datetime
-import pandas as pd
 import hashlib
+import pandas as pd
+import streamlit as st
 
 # Create a Record Data Class that consists of the `sender`, `receiver`, and
 # `amount` attributes
